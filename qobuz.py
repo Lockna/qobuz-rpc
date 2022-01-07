@@ -81,14 +81,3 @@ if __name__ == '__main__':
                 RPC.update(details=title_parts[0], state="by " + title_parts[1], large_image="qobuz")
             except:
                 print("split not worked")
-        #time.sleep(15)
-
-
-
-
-
-
-
-        
-
-    
