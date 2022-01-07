@@ -56,6 +56,12 @@ def getQobuzHandle():
 if __name__ == '__main__':
     qobuz_handle = getQobuzHandle()
 
+    if qobuz_handle is None:
+        while True:
+            qobuz_handle = getQobuzHandle()
+            if qobuz_handle is not None:
+                break
+
     RPC = Presence(client_id)
 
     RPC.connect()
@@ -63,7 +69,6 @@ if __name__ == '__main__':
     title = ""
 
     while True:
-
         while True:
             new_title = getWindowTitleByHandle(qobuz_handle)
 
