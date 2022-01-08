@@ -21,6 +21,8 @@ If you encounter any problem with the program feel free to contact me either on 
 ## TODO
  - Find the Qobuz Endpoint where I get the duration of the track so I can add a xx:xx left or xx:xx elapsed time counter.
  - Add multiple assets to the Discord application so you can switch the shown picture
+ - See if it is possible to use an asset directly after uploading it to Discord Assets. If so, get images of the track via Qobuz API and upload.
+Or use the newer alternative where you can directly use an image url
 
 
 #### Misc
