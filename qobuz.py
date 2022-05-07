@@ -81,7 +81,7 @@ if __name__ == '__main__':
             RPC.clear()
         else:
             try:
-                title_parts = title.split('-')
+                title_parts = title.rsplit(' - ', 1)
                 print(title_parts)
                 RPC.update(details=title_parts[0], state="by " + title_parts[1], large_image="qobuz")
             except:
